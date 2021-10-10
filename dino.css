@@ -7,14 +7,14 @@ h1{
     height: 300px;
     border: 2px solid black;
     margin:auto;
-    background-image: url("DinoGamebg.jpg");
+    background-image: url("./DinoGamebg.jpg");
 }
 #character{ 
     width: 75px;
     height: 75px;
     position: relative;
     top: 225px;
-    background-image: url("DinoGamecharacter.webp");
+    background-image: url("./DinoGamecharacter.webp");
     background-size: cover;
 }
 .animate{
@@ -29,7 +29,7 @@ h1{
 #block{
     width: 80px;
     height: 80px;
-    background-image: url("DinoGamecactus.png");
+    background-image: url("./DinoGamecactus.png");
     background-size: cover;
     position: relative;
     top: 145px;
