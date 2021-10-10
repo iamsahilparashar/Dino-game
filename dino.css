@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#game{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin:auto;
+    background-image: url("./DinoGamebg.jpg");
+}
+#character{ 
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("./DinoGamecharacter.webp");
+    background-size: cover;
+}
+.animate{
+    animation: jump 0.5s linear;
+}
+@keyframes jump{
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
+#block{
+    width: 80px;
+    height: 80px;
+    background-image: url("./DinoGamecactus.png");
+    background-size: cover;
+    position: relative;
+    top: 145px;
+    left: 520px;
+    animation: block 1.33s infinite linear;
+}
+@keyframes block{
+    0%{left: 550px;}
+    100%{left:-50px;}
+}
+
+.hs{
+    color: black;
+    text-align: center;
+    font-size : 30px;
+    font-weight : bold;
+}
